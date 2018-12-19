@@ -1,0 +1,1281 @@
+{
+  "women_tops_old":
+  {
+	  "new_young_look": {
+	    "colour": {
+	      "reason": "All colors are suitable.It will look good on you.",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "All patterns are suitable. It will look good on you.",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "classic_trendy": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "go for roomy tops and formal styles to hide yor body flaws. Suits your age",
+	      "priority": 0
+	    }
+	  },
+	  "classic_graceful": {
+	    "colour": {
+	      "reason": "At your age look for pastel colors and dark colors to hide body flaws",
+	      "priority": 4
+	    },
+	    "sleeve": {
+	      "reason": "Go for long sleeves/three-quarter sleeves to cover your flabby arms and wrinkles",
+	      "priority": 2
+	    },
+	    "pattern": {
+	      "reason": "you should stick to self design, solid, embroidery/embelllished patterns at this age as they will make you look elegant",
+	      "priority": 12
+	    },
+	    "neck": {
+	      "reason": "open neck will add volume and draw attention to bust hence to be avoided. Stick to closed and wide necklines",
+	      "priority": 2
+	    },
+	    "type": {
+	      "reason": "go for formal styles and highlight waist - to hide yor body flaws. Suits your age",
+	      "priority": 0
+	    }
+	  },
+	  "elongated_appearance": {
+	    "colour": {
+	      "reason": "dark colors make you look taller and leaner so that will be your best choice",
+	      "priority": 5
+	    },
+	    "sleeve": {
+	      "reason": "long sleeves/three quarter sleeves will give a vertical illusion which will make you look taller",
+	      "priority": 7
+	    },
+	    "pattern": {
+	      "reason": "solid and self designs make you look taller and leaner so that will be your best choice",
+	      "priority": 11
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "complement_height": {
+	    "colour": {
+	      "reason": "All colours are suitable. You will look good in anything",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "Since you are tall all patterns are suitable",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "complement_fair": {
+	    "colour": {
+	      "reason": "Complementary colors like pastel or cool colours to enlighten your skin tone. Avoid Bright Colors",
+	      "priority": 9
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "complement_wheatish": {
+	    "colour": {
+	      "reason": "For Wheatish skin tone warm and darks are best suited. They will complement your skin",
+	      "priority": 10
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "complement_dark": {
+	    "colour": {
+	      "reason": "Blingy & Bright Colors will complement your skin tone. Avoid pastels & Light, it will make you look dull",
+	      "priority": 11
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "even_shape": {
+	    "colour": {
+	      "reason": "To make your Upper half slimmer go for dark colors. Right choice for you",
+	      "priority": 2
+	    },
+	    "sleeve": {
+	      "reason": "Go for long sleeves/three quarter sleeves and sleeveless to divert attention from the bust area and look slim",
+	      "priority": 3
+	    },
+	    "pattern": {
+	      "reason": "solid and self designs are suitable to withdraw attention from the bust and give a slimming look",
+	      "priority": 1
+	    },
+	    "neck": {
+	      "reason": "closed neck will add volume and draw attention to bust hence to be avoided. Stick to deep and open necklines",
+	      "priority": 3
+	    },
+	    "type": {
+	      "reason": "Hide away your tummy in formal and highlight waist styles. This will avoid a bulky look",
+	      "priority": 2
+	    }
+	  },
+	  "proportionate_top": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "Short sleeves will draw the eye upwards away from your heavy bottom. It will suit you",
+	      "priority": 8
+	    },
+	    "pattern": {
+	      "reason": "Avoid solid, self design and embellished/embroidered patterns as they will make you look bulky",
+	      "priority": 2
+	    },
+	    "neck": {
+	      "reason": "Open neck will draw the eye upwards, away from your heavy bottom. Go for it",
+	      "priority": 9
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 10
+	    }
+	  },
+	  "thinner_waist": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "All patterns are suitable.It will look good on you.",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "To make your bust look fuller you should go for open and closed necklines",
+	      "priority": 7
+	    },
+	    "type": {
+	      "reason": "highlight waist, highlight bust and Enhance Hips styles would add some curves to your body",
+	      "priority": 11
+	    }
+	  },
+	  "defining_waist": {
+	    "colour": {
+	      "reason": "All colors are suitable.It will look good on you.",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "All patterns are suitable.It will look good on you.",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "body_neutralise_look": {
+	    "colour": {
+	      "reason": "to soften the broad shoulders you can opt for dark colors.",
+	      "priority": 7
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "solid and self designs are suitable to soften the shoulders and give a slimming look",
+	      "priority": 3
+	    },
+	    "neck": {
+	      "reason": "go for deep necklines as it will create a vertical illusion. Avoid neckline that add volume to your top half.",
+	      "priority": 13
+	    },
+	    "type": {
+	      "reason": "To diver the attention from shoulders, define waist or balance the upper and lower body go for enhance hips, highlight waist, roomy respectively",
+	      "priority": 12
+	    }
+	  },
+	  "body_proportionate_look": {
+	    "colour": {
+	      "reason": "To make your Upper half slimmer go for dark colors and classic colours. Right choice for you",
+	      "priority": 2
+	    },
+	    "sleeve": {
+	      "reason": "go for Three-Quarter Sleeves and Long Sleeve direct attention away from the bust, and maybe to cover your flabby arms if you have it.",
+	      "priority": 4
+	    },
+	    "pattern": {
+	      "reason": "plain design are suitable to withdraw attention from the bust and give a slimming look",
+	      "priority": 4
+	    },
+	    "neck": {
+	      "reason": "open and closed neck will add volume and draw attention to bust hence to be avoided. Stick to regular necklines",
+	      "priority": 4
+	    },
+	    "type": {
+	      "reason": "roomy to not give a bulky look.",
+	      "priority": 4
+	    }
+	  },
+	  "body_slim_look": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "Go for long sleeves/three quarter sleeves and sleeveless to cover up the flabby arms and look slim",
+	      "priority": 6
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "body_flawless_look": {
+	    "colour": {
+	      "reason": "To make your tummy look skimmer go for dark colors and classic colours. Right choice for you",
+	      "priority": 3
+	    },
+	    "sleeve": {
+	      "reason": "short sleeve and Three-Quarter Sleeves to divert attention away from the tummy.",
+	      "priority": 5
+	    },
+	    "pattern": {
+	      "reason": "avoid embriodery it may give a bulky look.",
+	      "priority": 5
+	    },
+	    "neck": {
+	      "reason": "aviod closed neckline to divert attention from the curvy areas.",
+	      "priority": 5
+	    },
+	    "type": {
+	      "reason": "go for roomy tops to aviod attention on the upper area.",
+	      "priority": 3
+	    }
+	  },
+	  "body_shapely_look": {
+	    "colour": {
+	      "reason": "to divert the attention upwards opt for bright, cool and blingy colors",
+	      "priority": 8
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "to divert the attention upwards opt for printed, checked, striped, colorblocked or embellishe/embroidered tops.",
+	      "priority": 10
+	    },
+	    "neck": {
+	      "reason": "to divert the attention upwards opt for open, attention bust, wide and deep necklines.",
+	      "priority": 10
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 7
+	    }
+	  },
+	  "body_slenderize_look": {
+	    "colour": {
+	      "reason": "women_tops",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "go for sleeveless, Three-Quarter Sleeves and short sleeve to divert atention upwards.",
+	      "priority": 9
+	    },
+	    "pattern": {
+	      "reason": "avoid embriodery it may give a bulky look.",
+	      "priority": 6
+	    },
+	    "neck": {
+	      "reason": "aviod closed neckline to divert attention from the curvy areas.",
+	      "priority": 6
+	    },
+	    "type": {
+	      "reason": "Go for enhance bust, highlight waist and roomy tops to divert attention on the upper area",
+	      "priority": 5
+	    }
+	  },
+	  "body_broader_look": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "Any embellishment to the top half will add volume to the body. so go for it",
+	      "priority": 9
+	    },
+	    "neck": {
+	      "reason": "deep necklines will create a vertical illusion, enhance/highlight bust will add volume to your top half, wide necklines will broaden yoour shoulders",
+	      "priority": 11
+	    },
+	    "type": {
+	      "reason": "enhance bust necklines will add volume to your shoulders , body hugging and highlight waist will help shrinking your waist according to your shoulders and roomy tops will help disguise your flaws",
+	      "priority": 6
+	    }
+	  },
+	  "body_curvier_look": {
+	    "colour": {
+	      "reason": "All colors are suitable.It will look good on you.",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "Three-Quarter Sleeves, Long Sleeve, and sleeve less are more suitable.",
+	      "priority": 8
+	    },
+	    "neck": {
+	      "reason": "Go for closed necklines to enhance bust.",
+	      "priority": 14
+	    },
+	    "type": {
+	      "reason": "Go for styles which will enhance bust. other than body hugging and roomy tops the rest of the style you can choose which will divert attention from your bust.",
+	      "priority": 9
+	    }
+	  },
+	  "body_slimmer_look": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "to divert the attention upwards opt for printed, checked, striped, colorblocked or embellishe/embroidered tops.",
+	      "priority": 7
+	    },
+	    "neck": {
+	      "reason": "to divert the attention upwards opt for open, attention bust, wide and deep necklines. volume bust necklines will help balance lower and upper body.",
+	      "priority": 8
+	    },
+	    "type": {
+	      "reason": "To balance your upper and lower body and create a defined waistline go for enhance bust, roomy and highlight waist respectively.",
+	      "priority": 8
+	    }
+	  },
+	  "body_elongated_look": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "body_even_look": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "avoid close neck to make your torso look smaller.",
+	      "priority": 12
+	    },
+	    "type": {
+	      "reason": "avoid body hugging which reveal you body structre.",
+	      "priority": 14
+	    }
+	  },
+	  "office_wear": {
+	    "colour": {
+	      "reason": "Keeping in mind the office conservativness opt for dark, pastel and light colors.",
+	      "priority": 1
+	    },
+	    "sleeve": {
+	      "reason": "Avoiding sleeveless tops to an office to maintain a office conservativeness.",
+	      "priority": 1
+	    },
+	    "pattern": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "neck": {
+	      "reason": "Formal and deep necklines can be your go to necklines for office",
+	      "priority": 1
+	    },
+	    "type": {
+	      "reason": "Formal styles must the most preferred for office. Do not opt for roomy styles, enhance bust and body hugging styles, enhance hips and hight waist can work good too.",
+	      "priority": 1
+	    }
+	  },
+	  "party_wear": {
+	    "colour": {
+	      "reason": "Go for bright, blingy, and dark colours",
+	      "priority": 13
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "Go for embellishments, solid it will give a proper party look.",
+	      "priority": 15
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "festival": {
+	    "colour": {
+	      "reason": "Opt for fun festive colors like blingy bright and not light colors",
+	      "priority": 14
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "For festive wear you should look for embroidered/ embellished pieces",
+	      "priority": 14
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  },
+	  "casual_dress": {
+	    "colour": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "sleeve": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "pattern": {
+	      "reason": "avoid embriodery for heavy look.",
+	      "priority": 13
+	    },
+	    "neck": {
+	      "reason": "",
+	      "priority": 0
+	    },
+	    "type": {
+	      "reason": "",
+	      "priority": 0
+	    }
+	  }
+  },
+  "women_dresses":
+  {
+  	"18-27": {
+      "colour": {
+        "reason": "All colors are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 2
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 2
+      },
+      "pattern": {
+        "reason": "All patterns are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 2
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "28-38": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "knee and full length are more suitable at your age making you look edgy and sophisticated",
+        "priority": 1
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 1
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 1
+      },
+      "dress_shape": {
+        "reason": "top fit & bottom loose and loose to hide yor body flaws. Suits your age",
+        "priority": 0
+      }
+    },
+    "39+": {
+      "colour": {
+        "reason": "At your age look for pastel colors,and dark colors to hide body flaws",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "full length will make look elegant and cover body flaws",
+        "priority": 10
+      },
+      "sleeves_type": {
+        "reason": "go for covered sleeves to cover your flabby arms and wrinkles",
+        "priority": 8
+      },
+      "pattern": {
+        "reason": "you should stick to plain and basic patterns at this age as they will make you look elegant",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "open and closed neck will add volume and draw attention to bust hence to be avoided. stick to regular necklines",
+        "priority": 9
+      },
+      "dress_shape": {
+        "reason": "top fit & bottom loose and loose to hide yor body flaws. Suits your age",
+        "priority": 0
+      }
+    },
+    "short": {
+      "colour": {
+        "reason": "dark colors make you look taller and leaner so that will be your best choice",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Full length and above knee dresses will give an illusion of a tall look",
+        "priority": 7
+      },
+      "sleeves_type": {
+        "reason": "covered sleeves will give a vertical illusion which will make you look taller",
+        "priority": 7
+      },
+      "pattern": {
+        "reason": "plain designs make you look taller and leaner so that will be your best choice",
+        "priority": 3
+      },
+      "neck": {
+        "reason": "",
+        "priority": 5
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 3
+      }
+    },
+    "average": {
+      "colour": {
+        "reason": "dark colors make you look taller and leaner so that will be your best choice",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Full length and above knee dresses will give an illusion of a tall look",
+        "priority": 5
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 4
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 2
+      },
+      "neck": {
+        "reason": "",
+        "priority": 3
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 2
+      }
+    },
+    "tall": {
+      "colour": {
+        "reason": "All colours are suitable. You will look good in anything",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 6
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 3
+      },
+      "pattern": {
+        "reason": "Since you are tall all patterns are suitable",
+        "priority": 1
+      },
+      "neck": {
+        "reason": "",
+        "priority": 4
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 1
+      }
+    },
+    "fair": {
+      "colour": {
+        "reason": "Complementary colors like pastel or cool colours to enlighten your skin tone. Avoid Bright Colors",
+        "priority": 2
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "wheatish": {
+      "colour": {
+        "reason": "For Wheatish skin tone warm, nude and darks are best suited. They will complement your skin",
+        "priority": 3
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "dark": {
+      "colour": {
+        "reason": "Blingy & Bright Colors will complement your skin tone. Avoid pastels & Light, it will make you look dull",
+        "priority": 1
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "apple": {
+      "colour": {
+        "reason": "To make your Upper half slimmer go for dark colors. Right choice for you",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "knee length, full length are suitable to give a slimmer look. Go for it",
+        "priority": 7
+      },
+      "sleeves_type": {
+        "reason": "Go for covered sleeves or sleeveless to divert attention from the bust area and look slim",
+        "priority": 9
+      },
+      "pattern": {
+        "reason": "plain design are suitable to withdraw attention from the bust and give a slimming look",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "open and closed neck will add volume and draw attention to bust hence to be avoided. Stick to regular necklines",
+        "priority": 8
+      },
+      "dress_shape": {
+        "reason": "Hide away your tummy in loose and top fit & loose bottom styles. This will avoid a bulky look",
+        "priority": 6
+      }
+    },
+    "pear": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Full length dresses will give an illusion of a tall look and cover your wide hips and big thighs",
+        "priority": 3
+      },
+      "sleeves_type": {
+        "reason": "Short sleeves will draw the eye upwards away from your heavy bottom. It will suit you",
+        "priority": 5
+      },
+      "pattern": {
+        "reason": "Avoid patterns with heavy work as they will make you look bulky",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "Open neck will draw the eye upwards, away from your heavy bottom. Go for it",
+        "priority": 7
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 5
+      }
+    },
+    "rectangle": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 4
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 6
+      },
+      "pattern": {
+        "reason": "Heavy work will give an illusion of a fuller body so this can be a good choice for you",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "To make your bust look fuller you should go for open and closed necklines",
+        "priority": 6
+      },
+      "dress_shape": {
+        "reason": "Top fit & bottom loose and body hugging styles would add some curves to your body",
+        "priority": 4
+      }
+    },
+    "hourglass": {
+      "colour": {
+        "reason": "All colors are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 9
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 10
+      },
+      "pattern": {
+        "reason": "All patterns are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 10
+      },
+      "dress_shape": {
+        "reason": "",
+        "priority": 7
+      }
+    }
+  },
+  "women_tops":
+  {
+    "18-27": {
+      "colour": {
+        "reason": "All colors are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 2
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 2
+      },
+      "pattern": {
+        "reason": "All patterns are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 2
+      },
+      "fit": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "28-38": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Longline Tops are more suitable at your age making you look edgy and sophisticated",
+        "priority": 1
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 1
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 1
+      },
+      "fit": {
+        "reason": "Regular and loose tops to hide your body flaws. Suits your age",
+        "priority": 0
+      }
+    },
+    "39+": {
+      "colour": {
+        "reason": "Longline Tops will make look elegant and cover body flaws",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "full length will make look elegant and cover body flaws",
+        "priority": 10
+      },
+      "sleeves_type": {
+        "reason": "go for covered sleeves to cover your flabby arms and wrinkles",
+        "priority": 8
+      },
+      "pattern": {
+        "reason": "you should stick to plain and basic patterns at this age as they will make you look elegant",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "open and closed neck will add volume and draw attention to bust hence to be avoided. stick to regular necklines",
+        "priority": 9
+      },
+      "fit": {
+        "reason": "Regular and loose tops to hide your body flaws. Suits your age",
+        "priority": 0
+      }
+    },
+    "short": {
+      "colour": {
+        "reason": "dark colors make you look taller and leaner so that will be your best choice",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Crop tops will give an illusion of a tall look",
+        "priority": 7
+      },
+      "sleeves_type": {
+        "reason": "covered sleeves will give a vertical illusion which will make you look taller",
+        "priority": 7
+      },
+      "pattern": {
+        "reason": "plain designs make you look taller and leaner so that will be your best choice",
+        "priority": 3
+      },
+      "neck": {
+        "reason": "",
+        "priority": 5
+      },
+      "fit": {
+        "reason": "",
+        "priority": 3
+      }
+    },
+    "average": {
+      "colour": {
+        "reason": "dark colors make you look taller and leaner so that will be your best choice",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Crop tops will give an illusion of a tall look",
+        "priority": 5
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 4
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 2
+      },
+      "neck": {
+        "reason": "",
+        "priority": 3
+      },
+      "fit": {
+        "reason": "",
+        "priority": 2
+      }
+    },
+    "tall": {
+      "colour": {
+        "reason": "All colours are suitable. You will look good in anything",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 6
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 3
+      },
+      "pattern": {
+        "reason": "Since you are tall all patterns are suitable",
+        "priority": 1
+      },
+      "neck": {
+        "reason": "",
+        "priority": 4
+      },
+      "fit": {
+        "reason": "",
+        "priority": 1
+      }
+    },
+    "fair": {
+      "colour": {
+        "reason": "Complementary colors like pastel or cool colours to enlighten your skin tone. Avoid Bright Colors",
+        "priority": 2
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "fit": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "wheatish": {
+      "colour": {
+        "reason": "For Wheatish skin tone warm, nude and darks are best suited. They will complement your skin",
+        "priority": 3
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "fit": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "dark": {
+      "colour": {
+        "reason": "Blingy & Bright Colors will complement your skin tone. Avoid pastels & Light, it will make you look dull",
+        "priority": 1
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 0
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 0
+      },
+      "pattern": {
+        "reason": "",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 0
+      },
+      "fit": {
+        "reason": "",
+        "priority": 0
+      }
+    },
+    "apple": {
+      "colour": {
+        "reason": "To make your Upper half slimmer go for dark colors. Right choice for you",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Longline Tops are suitable to give a slimmer look. Go for it",
+        "priority": 7
+      },
+      "sleeves_type": {
+        "reason": "Go for covered sleeves or sleeveless to divert attention from the bust area and look slim",
+        "priority": 9
+      },
+      "pattern": {
+        "reason": "plain design are suitable to withdraw attention from the bust and give a slimming look",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "open and closed neck will add volume and draw attention to bust hence to be avoided. Stick to regular necklines",
+        "priority": 8
+      },
+      "fit": {
+        "reason": "Hide away your tummy in loose fit styles. This will avoid a bulky look",
+        "priority": 6
+      }
+    },
+    "pear": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "Longline Tops will give an illusion of a tall look and cover your wide hips and big thighs",
+        "priority": 3
+      },
+      "sleeves_type": {
+        "reason": "Short sleeves will draw the eye upwards away from your heavy bottom. It will suit you",
+        "priority": 5
+      },
+      "pattern": {
+        "reason": "Avoid patterns with heavy work as they will make you look bulky",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "Open neck will draw the eye upwards, away from your heavy bottom. Go for it",
+        "priority": 7
+      },
+      "fit": {
+        "reason": "",
+        "priority": 5
+      }
+    },
+    "rectangle": {
+      "colour": {
+        "reason": "",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 4
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 6
+      },
+      "pattern": {
+        "reason": "Heavy work will give an illusion of a fuller body so this can be a good choice for you",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "To make your bust look fuller you should go for open and closed necklines",
+        "priority": 6
+      },
+      "fit": {
+        "reason": "Fitted Tops would add curves to your body",
+        "priority": 4
+      }
+    },
+    "hourglass": {
+      "colour": {
+        "reason": "All colors are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "dress_length": {
+        "reason": "",
+        "priority": 9
+      },
+      "sleeves_type": {
+        "reason": "",
+        "priority": 10
+      },
+      "pattern": {
+        "reason": "All patterns are suitable.It will look good on you.",
+        "priority": 0
+      },
+      "neck": {
+        "reason": "",
+        "priority": 10
+      },
+      "fit": {
+        "reason": "",
+        "priority": 7
+      }
+    }
+  }
+}

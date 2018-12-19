@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Selekt.in</title>
+</head>
+<style>
+
+	.displayON{
+	display:block !important;
+}
+
+</style>
+<body style="display:none" ng-class="(1) ? 'displayON' : 'no'"  ng-app="rzSliderDemo" ng-controller="MainCtrl" >
+<div class="">
+	<div class="col-xs-12" style="font-size: 22px;text-align: left;padding:0">
+		<div class="row-xs-12" style=" color: black;     word-break: break-all;padding: 3%;">
+			According to me {{data.adjective_name}}s are</div>
+		<div class="row-xs-12" style="font-size:22px;text-transform: capitalize;;background: #959f9f; color: white; font-weight: bold; padding: 3%; text-align: left;">{{data.attribute}}</div>
+		<div class="row-xs-12 ">
+			<div ng-repeat="x in data.values" style="text-transform: capitalize;font-size:0.8em;padding-left:3%;width: 100%; border-bottom:1px solid;text-align: left; float: right;" >
+  				   {{x}}
+			</div>
+
+		</div>
+	</div>
+</div>
+</body>
+<script>
+ejs_data ="<%=source%>";
+ejs_data = ejs_data.split('&#34;').join('"');
+ejs_data = ejs_data.split('&amp;').join('&');
+console.log('ejs_data',JSON.parse(ejs_data));
+</script>
+</html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+<script>
+
+ function isMobile() {
+          try{ document.createEvent("TouchEvent"); return true; }
+          catch(e){ return false; }
+    }
+   isMobile = (isMobile())
+
+var app = angular.module('rzSliderDemo', []);
+
+app.controller('MainCtrl', function ($scope, $rootScope, $timeout,$http) {
+    $scope.isMobile = window.isMobile;
+    $scope.data = JSON.parse(window.ejs_data);
+    $scope.data.adjective_name = $scope.data.adjective_name.trim();
+
+
+
+
+});
+</script>

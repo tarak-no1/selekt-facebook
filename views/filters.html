@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selekt.in</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <style>
+    .displayON{
+	display:block !important;
+}
+        .btn{
+        padding: 0 1rem !important;
+        }
+        .filter_type h5{
+        font-size: 1.2em;
+        }
+        .show_all_filters_mweb .single_filter_mob{
+                margin-left: 5% !important;
+                    padding: 10px 5px !important;
+        }
+        .square_search_box{
+padding: 4px 3px 0px 30px !important;
+height:2rem !important;
+margin:0 !important;
+        }
+        .filter_type h5{
+            padding: 10px 0 11px 13px !important;
+        }
+
+    </style>
+	<script>
+		(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'Messenger'));
+    window.extAsyncInit = function() {
+        MessengerExtensions.getUserID(function success(uids) {
+            var psid = uids.psid;
+            var link = document.getElementById('samplelink');
+            link.href = '/sampledata?uid='+psid;
+        }, function error(err) {
+        });
+    };
+    function closeView(){
+        MessengerExtensions.requestCloseBrowser(function success() {
+            console.log(success)
+      }, function error(err) {
+        console.log(err)
+      });
+    }
+	</script>
+<link href="https://www.prodx.in/static/selekt/css/all_custom_css.css?v=c3713d34" rel="stylesheet" type="text/css">
+<link href="https://www.prodx.in/static/selekt/css/all_style_css.css?v=dd8fa94d" rel="stylesheet" type="text/css">
+<link href="https://www.prodx.in/static/selekt/css/all_third_party_css.css?v=63877d5f" rel="stylesheet" type="text/css">
+<body style="display:none" ng-app="rzSliderDemo" ng-controller="MainCtrl" ng-class="(1) ? 'displayON' : 'no'">
+
+<div id="chat_filter"  class="show_all_filters show_all_filters_mweb">
+
+    <div class="view_all_container">
+        <div class="filter_type_heading" >
+                <h4 class="display-none">
+                    <span id ="current_filter" key="{{current_filter.key}}">{{current_filter.display_name}}</span>
+                </h4>
+            <span id="filter_close" >
+            <span class="glyphicon glyphicon-chevron-left" ></span>
+            </span>
+
+        </div>
+
+        <div class="filter_type_heading" >
+            <h4 class="margin-top-0 pull-left" style="width:130%">
+               FILTER BY
+            </h4>
+        </div>
+
+        <div class="row filter_finish_container" style="margin-top:-5px;margin-right:7px">
+            <div class="col-xs-4 col-md-3 pull-right">
+                <button ng-click="getFilters('update')" onclick="closeView()" id="apply_filter" class="btn btn-block btn-primary apply_btn width-100perc">
+                    APPLY
+                </button>
+            </div>
+            <div class="col-xs-4 col-md-3 pull-right" >
+                <button id="clear_filters" ng-click="clear()" class="btn btn-block btn-reset clear_all_btn width-100perc">
+                    CLEAR
+                </button>
+            </div>
+            <div class="col-xs-1 col-md-1"></div>
+        </div>
+
+    </div>
+    <!-- FOR APP LIKE FEEL END -->
+
+    <div class="view_all_container">
+        <div class="view_all_sidebar"  >
+            <div class="filter_type_container height-100perc">
+                <hr class="margin-0px">
+                <!--{% for type in filters %}-->
+                    <div id="{{type.key}}" ng-repeat="type in filters" index="{{forloop.counter0}}" class="filter_type" ng-class="($index == v) ? 'active_filter_type' : 'no'">
+                        <h5 ng-click="setV($index)">{{type.display_name}}
+                        <!--{% if type.selected_count %}-->
+                            <span ng-if="type.selected_count">{{type.selected_count}}</span></h5>
+                            <!--{% endif %}-->
+                        </h5>
+                    </div>
+                    <hr class="margin-0px">
+                <!--{% endfor %}-->
+            </div>
+        </div>
+
+        <div id="filter_values">
+                <div id="filter_loading"  class="scope">
+                      <div >
+                        <img src="/static/selekt/pics/filters_load.gif" width="50px" height="50px">
+                      </div>
+                </div>
+
+            <div id="filter_value" class="filter_values_container">
+                <div class="search_filters_container" ng-show="0">
+                    <input id="search_filter" class="square_search_box width-100perc" type="text"
+                           class="form-control  pristine valid empty touched" ng-model="search_query" placeholder="Search">
+                </div>
+                <div class="filter_value_columns padding-0px" style="overflow-x:hidden">
+                    <hr class="margin-0px-0px-5px-0px">
+                    <button class="btn" ng-if="NoFilters">{{NoFilters}}</button>
+                    <!--{% for value in current_filter.values %}-->
+                    <div ng-repeat="value in filters[v].values track by $index ">
+                    <!--{% if value.check_status %}-->
+                    <div  class="single_filter_mob"  ng-style="isFiltered(value.key) ? {'display':'block'} : {'display':'block'}" >
+                        <input id="filter_checkbox"  ng-checked="value.check_status" key="{{value.key}}"   id="{{value.key}}"  type="checkbox"  class="filter_checkbox checkbox-inline" />
+                        <!--{% if 0 %}-->
+                        <!--<label ng-if="0" class="filter_value" for="{{value.key}}">{{value.key}}[{{value.count}}] </label>-->
+                        <!--{% else %}-->
+                        <label class="filter_value" style="width:80%" ng-click="isChecked($index,value.key)" for="{{value.key}}">{{value.key}}
+                            </label>
+                        <span ng-show="value.doc_count" style="margin-right:4%;float:right;color: gray;font-size: 0.8em;">{{value.doc_count}}</span>
+
+                    </div>
+                    <!--{% else %}-->
+                    <!--<div ng-if="!value.check_status" class="single_filter_mob" >-->
+                        <!--<input id="filter_checkbox" key="{{value.key}}"   id="{{value.key}}"  type="checkbox" class="filter_checkbox checkbox-inline" />-->
+                        <!--&lt;!&ndash;{% if 0 %}&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="filter_value" for="{{value.key}}">{{value.key}}[{{value.count}}]</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;{% else %}&ndash;&gt;-->
+                        <!--<label  id ='lol_4' class="filter_value"  for="{{value.key}}"> {{value.key}}[{{value.count}}]</label>-->
+                            <!--&lt;!&ndash;{% if value.recommend %}&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<span> [Reco]</span>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<span class="glyphicon glyphicon-info-sign priority_tag_info_icon priority_popup"></span>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<span class="priority_popuptext" id="priority_1_popup_help">&ndash;&gt;-->
+                                            <!--&lt;!&ndash;{{value.recommend | joinby:",\n "}}&ndash;&gt;-->
+                                        <!--&lt;!&ndash;</span>&ndash;&gt;-->
+                            <!--&lt;!&ndash;{% endif %}&ndash;&gt;-->
+                        <!--&lt;!&ndash;{% endif %}&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--{% endif%}-->
+                    <!--{% endfor %}-->
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- apply and clear btn present on top now -->
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+ejs_data ="<%=session_id%>";
+console.log('ejs_data',ejs_data);
+</script>
+</html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+<script>
+
+ function isMobile() {
+          try{ document.createEvent("TouchEvent"); return true; }
+          catch(e){ return false; }
+    }
+   isMobile = (isMobile())
+
+var app = angular.module('rzSliderDemo', []);
+
+app.controller('MainCtrl', function ($scope, $rootScope, $timeout,$http) {
+    $scope.isMobile = window.isMobile;
+    var old_filters = [];
+    var session_id = parseInt(window.ejs_data);
+    $scope.remove_filters = [];
+    $scope.add_filters = [];
+    $scope.search_query = '';
+    $scope.firsttime = 1;
+$scope.clear = function(){
+        for(var x in $scope.filters[$scope.v]['values']){
+            $scope.filters[$scope.v]['values'][x]['check_status'] = 0;
+        }
+}
+
+       $scope.getFilters = function(type){
+
+         console.log('old filters: ',old_filters )
+                        console.log('new filters: ',$scope.filters )
+        for(var i in old_filters){
+                var key = $scope.filters[i]['key'];
+                $scope.temp_remove_filters[key] = [];
+                $scope.temp_add_filters[key] = [];
+                for(var j in old_filters[i].values){
+
+                        try{
+                                var old_status = old_filters[i].values[j]['check_status'];
+                                var new_status = $scope.filters[i].values[j]['check_status'];
+
+                                var value = $scope.filters[i].values[j]['key']
+                                <!--console.log('old status of '+ value + ' >> ' + old_status)-->
+                                <!--console.log('new status of '+ value + ' >> ' + new_status)-->
+                                if(old_status == 1 && new_status == 0 ){
+                                <!--fiiter removed-->
+                                 $scope.temp_remove_filters[key].push(value);
+                                }
+                                 if(old_status == 0 && new_status == 1){
+                                     $scope.temp_add_filters[key].push(value);
+                                }
+                        }catch(e){}
+
+
+
+                }
+        }
+
+        $scope.add_filters = [];
+        $scope.remove_filters = [];
+        for(var x in $scope.temp_add_filters){
+        <!--console.log('len of ' + x + " > " + $scope.temp_add_filters[x].length)-->
+            if($scope.temp_add_filters[x].length){
+                <!--console.log('if enter');-->
+                var obj = {'key' : x,'values' : $scope.temp_add_filters[x]};
+                $scope.add_filters.push(obj);
+
+            }
+        }
+        console.log('add filters> ' , $scope.add_filters);
+        for(var x in $scope.temp_remove_filters){
+            if($scope.temp_remove_filters[x].length){
+                var obj = {'key' : x,'values' : $scope.temp_remove_filters[x]};
+                $scope.remove_filters.push(obj);
+            }
+        }
+
+       var datas = {"session_id": session_id,'add_filters': $scope.add_filters,'remove_filters': $scope.remove_filters}
+       console.log('data sent:' ,datas);
+       	 var url = "https://www.prodx.in/fashion_bot/"+type+"_filters";
+                                $http({
+                                    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                                    method : "POST",
+                                    url : url,
+                                    data : datas
+                                }).then(
+                                    function(resp){
+                                        resp['data'] = ((resp['data']));
+                                    	console.log('resp : ', (resp['data']))
+                                    	if(Object.keys(resp['data']).length == 0 )
+                                    	$scope.NoFilters = 'No filters available now';
+                                    	else{
+                                    	if($scope.firsttime){
+                                    	    old_filters = JSON.parse(angular.toJson(resp['data']['options']));
+                                    	    $scope.firsttime = 0;
+                                    	}
+
+                                    	$scope.filters = JSON.parse(angular.toJson(resp['data']['options']));
+                                    	}
+
+                                    },function(err){
+                                        console.log(err);
+                                    }
+                                )
+       }
+    $scope.getFilters('get');
+    $scope.v = 0;
+$scope.isChecked = function(index,value){
+        var prev_status = $scope.filters[$scope.v]['values'][index]['check_status'];
+        $scope.filters[$scope.v]['values'][index]['check_status'] =  !prev_status;
+        console.log('dataa:,', $scope.filters[$scope.v]['values'][index]);
+};
+$scope.temp_remove_filters = {};
+$scope.temp_add_filters = {};
+$scope.setV = function(index){
+        $scope.v  = index;
+
+                $scope.getFilters('get');
+
+
+        $scope.isFilteredd = function(value){
+                console.log('value :' + value + " >> query : " +$scope.search_query )
+                if($scope.search_query == '')
+                return 1;
+                if($scope.search_query.indexOf(value) && $scope.search_query != '' )
+                return 1;
+                else
+                return 0;
+        }
+        console.log('add_filters:',$scope.temp_add_filters );
+        console.log('remove_filters:',$scope.temp_remove_filters );
+
+};
+});
+</script>

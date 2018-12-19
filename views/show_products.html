@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selekt.in</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <style>
+        img{
+                height: 55vh;
+    vertical-align: middle;
+    width: 40vh;
+    <!--margin-left: 15%;-->
+        }
+        <!--.brand{-->
+        	<!--font-size:100px !important;-->
+        <!--}-->
+         <!--.details span{-->
+            <!---->
+            <!--font-size: 35px !important;-->
+        <!--}-->
+        <!--.strike{-->
+            <!--font-size: 35px !important;-->
+        <!--}-->
+<!--.font_mob{-->
+<!--font-size: 45px !important;-->
+<!--}-->
+<!--.font_web{-->
+<!--font-size: 15px !important;-->
+<!--}-->
+.displayON{
+	display:block !important;
+}
+.total_count{
+width: 100%;
+    display: inline;
+    top: 3%;
+    position: fixed;
+text-align: center;
+
+    opacity: 0.6;
+}
+.total_count span{
+background:#3fb5af;
+  border-radius: 40px;
+    padding: 10px;
+     top: 1%;
+
+    color: white;
+}
+
+    </style>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,200,300" rel="stylesheet" type="text/css">
+
+<link href="https://www.prodx.in/static/selekt/css/all_style_css.css?v=dd8fa94d" rel="stylesheet" type="text/css">
+<body  ng-app="rzSliderDemo" ng-controller="MainCtrl"  style="background:#efebe9;font-family:Lato,sans-serif">
+    <!--<div style="margin:25% 35%" ng-show="!products_list">-->
+        <!--<img src="./client/loading.gif" width="100px" height="100px" style="width: 100px;height: 100px;">-->
+    <!--</div>-->
+	<div style="margin:0 25%;position:fixed;bottom:0px;left:20%" ng-show="!products_list || (!show_more && !end_list )" >
+        <img src="https://prodx.in/fashion_bot/client/loaderr.gif" width="100px" height="100px" style="width: 50px;height: 50px;">
+    </div>
+    <div style="display:none" ng-class="(1) ? 'displayON' : 'no'"  class="total_count" ng-if="products_list">
+       <span>Women {{product_line}} ( {{current_product}}  / {{total_count}} )</span>
+    </div>
+	<div style="display:none" ng-class="(1) ? 'displayON' : 'no'" >
+		<div  ng-if="products_list" ng-repeat="x in products_list" class="load_images" style="background:white;margin-top: 5%; display: inline-flex;    margin: 1% 3%;padding:3%">
+								<div>
+									<a style="display:flex" href="https://www.selekt.in/product/{{product_line}}/{{x._id}}" target="_blank">
+										<div ng-if="x.deal" style="margin-left: -13px;">
+											<img src="./client/offer_tag.png" alt="on offer" style="height: 30px;width: 70px;">
+											<span style="position: absolute; font-size: 11px; margin-left: 5px; margin-top: -5.5%; color: white;">On Offer</span>
+										</div>
+										<div ng-if="!x.deal" style="opacity:0;margin-left: -13px;">
+											<img src="./client/offer_tag.png" alt="on offer" style="height: 30px;width: 70px;">
+											<span style="position: absolute; font-size: 9px; margin-left: 5px; margin-top: -5.5%; color: white;">On Offer</span>
+										</div>
+
+										<img ng-if="!x.style_images.default_selekt.imageURL"  src="{{x.style_images.default.resolutions['180X240']}}" height="280px" width="200px">
+
+										<img  ng-if="x.style_images.default_selekt.imageURL" src="{{x.style_images.default_selekt.imageURL}}" height="280px" width="200px">
+									</a>
+									<div ng-class="(isMobile) ? 'details' : 'no'" style="min-width: 40vh;margin-left: 2%;width: 56vh;">
+									<br>
+									<span class="brand" ng-class="(isMobile) ? 'font_mob' : 'font_web'"  style=" font-weight:bold ;text-overflow:ellipsis;">&nbsp&nbsp{{x.product_filter.brand.toUpperCase().substr(0, 19)}}
+										<span ng-show="x.product_filter.brand.length > 20"></span>
+									</span>
+
+
+							<br>	<span style="font-weight: lighter;font-size: 11px;" >&nbsp Rs.{{x.product_filter.discount_price}}&nbsp&nbsp&nbsp</span>
+									<strike  ng-class="(isMobile) ? 'strike' : 'no'" style="font-weight: lighter;font-size: 11px;color: red" ng-hide="x.product_filter.discount_percent == 0">Rs.{{x.product_filter.price}}</strike>
+									<span style="font-weight: lighter;font-size: 11px;color: #0090c0" ng-hide="x.product_filter.discount_percent == 0" >&nbsp&nbsp&nbsp{{x.product_filter.discount_percent}}% Off</span>
+							<span style="text-transform:capitalize;color:gray;float:right;    margin-right: 5%;">{{x.product_filter.website}}</span>
+										<br>
+                                         <button class="benefits_tags" ng-repeat="y in x.benefits" >{{y}}</button>
+
+									</div>
+								</div>
+
+								</div>
+		<div class="col-xs-offset-3 ">
+			<button ng-show="show_more" class="btn btn-info btn-sm" style="margin: 15px 25px;font-size:15px;outline:none;padding:5px 50px" ng-click="getProducts()">Show more</button>
+		</div>
+
+	</div>
+</body>
+<script>
+	ejs_data ="<%=source%>";
+ejs_data = ejs_data.split('&#34;').join('"');
+ejs_data = ejs_data.split('&amp;').join('&');
+ejs_data = JSON.parse(ejs_data)
+
+console.log('ejs_data',ejs_data);
+</script>
+</html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+<script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
+
+<script>
+
+ function isMobile() {
+          try{ document.createEvent("TouchEvent"); return true; }
+          catch(e){ return false; }
+    }
+   isMobile = (isMobile())
+
+var app = angular.module('rzSliderDemo', ['ui.bootstrap']);
+
+app.controller('MainCtrl', function ($scope, $rootScope, $timeout, $modal,$http,$window) {
+    $scope.current_product = 1;
+    $scope.page_no = -1;
+    $scope.show_more = 1;
+    $scope.end_list = 0;
+    $scope.products_list = [];
+    $scope.isMobile = window.isMobile;
+    var session_id = window.ejs_data['sessionId'];
+    $scope.total_count = window.ejs_data['total'];
+    $scope.type = window.ejs_data['type'];
+  $scope.getProducts = function(){
+			$scope.show_more = 0;
+  			++$scope.page_no;
+  			console.log('page_no : ' , $scope.page_no);
+  		    var url = "https://www.prodx.in/fashion_bot/products_lists";
+			$http({
+				headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+				method : "POST",
+				url : url,
+				data : {"id" : session_id ,"page_no": $scope.page_no ,"type":$scope.type}
+			}).then(
+					function(resp){
+					console.log('list >', resp);
+					$scope.products_list = $scope.products_list.concat(resp['data']['products_data']);
+					$scope.page_no = resp['data']['page_no'];
+					console.log('total count : ',$scope.total_count  );
+					console.log('list count : ',$scope.products_list.length  );
+					if($scope.total_count != $scope.products_list.length)
+					$scope.show_more = 1;
+					else{
+					$scope.show_more = 0;
+					$scope.end_list = 1;
+					}
+
+
+					$scope.product_line = resp['data']['product_line']
+					for(x in $scope.products_list){
+						$scope.products_list[x].style_images.default_selekt.imageURL = $scope.products_list[x].style_images.default_selekt.imageURL.replace('http:','https:');
+					}
+
+				},function(err){
+					console.log(err);
+				}
+			)
+  }
+      $scope.getProducts();
+$window.onscroll = function() {
+
+  console.log('total height: ',);
+  $scope.current_product = Math.ceil(window.scrollY / (document.body.offsetHeight/$scope.products_list.length)+1);
+  if($scope.current_product >= ($scope.products_list.length - 5 ) )
+
+  console.log('scroll : ', $scope.current_product);
+  $scope.$digest();
+};
+
+});
+</script>

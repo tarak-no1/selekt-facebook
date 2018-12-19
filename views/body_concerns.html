@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customize your plan</title>
+</head>
+<body>
+	<script>
+		(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'Messenger'));
+    window.extAsyncInit = function() {
+        MessengerExtensions.getUserID(function success(uids) {
+            var psid = uids.psid;
+            var link = document.getElementById('samplelink');
+            link.href = '/sampledata?uid='+psid;
+        }, function error(err) {
+        });
+    };
+    function closeView(){
+        MessengerExtensions.requestCloseBrowser(function success() {
+            console.log(success)
+      }, function error(err) {
+        console.log(err)
+      });
+    }
+	</script>
+</body>
+</html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./client/body.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+<script src="https://rawgit.com/rzajac/angularjs-slider/master/dist/rzslider.js"></script>
+
+<div ng-app="rzSliderDemo" ng-controller="MainCtrl" >
+   <div class="center-div" >
+		<center><h1 class="h1-font">select your body concern</h1>
+		 <img src="./client/body.png" class="body-img">
+		<div class="body-image">
+		 <div class="left-buttons">
+			<button class="button narrow-shoulders {{selected.narrow_shoulders}}" ng-click="send_id('Narrow shoulders')">Narrow shoulders</button>
+			<button class="button small-brusts {{selected.small_busts}}" ng-click="send_id('Small busts')"> Small busts</button>
+			<button class="button long-tarso {{selected.long_torso}}" ng-click="send_id('Long torso')"> Long torso</button>
+			<button class="button small-torso {{selected.small_torso}}" ng-click="send_id('Small torso')"> Small torso</button>
+			<button class="button wide-hips {{selected.wide_hips}}" ng-click="send_id('Wide Hips')"> Wide Hips</button>
+			<button class="button thin-legs {{selected.thin_legs}}" ng-click="send_id('Thin legs')"> Thin legs</button>
+			<button class="button short-legs {{selected.short_legs}}" ng-click="send_id('Short legs')"> Short legs</button>
+		</div>
+		<div class="right-buttons">
+			<button class="button no-body-concern {{selected.no_body_concerns}}" ng-click="send_id('No body concerns')"> No body concerns</button>
+			<button class="button broad-shoulders {{selected.broad_shoulders}}" ng-click="send_id('Broad shoulders')"> Broad shoulders</button>
+			<button class="button large-brusts {{selected.large_busts}}" ng-click="send_id('Large busts')"> Large busts</button>
+			<button class="button big-arms {{selected.big_arms}}" ng-click="send_id('Big arms')"> Big arms</button>
+			<button class="button thummy {{selected.tummy}}" ng-click="send_id('Tummy')"> Tummy</button>
+			<button class="button small-hips {{selected.small_hips}}" ng-click="send_id('Small Hips')"> Small Hips</button>
+			<button class="button big-thigs {{selected.big_hips}}" ng-click="send_id('Big hips')"> Big hips</button>
+			<button class="button long-legs {{selected.long_legs}}" ng-click="send_id('Long legs')"> Long legs</button>
+			<button class="apply-button" ng-show='!isApplied' ng-click="apply()" onclick="closeView()">Apply</button>
+            <button class="apply-button" ng-show='isApplied' ng-click="">Applied</button>
+		</div>
+		</div>
+		</center>
+
+	</div>
+</div>
+<script>
+ejs_data ="<%=source%>";
+console.log('ejs_data',ejs_data);
+</script>
+<script>
+    
+
+
+var app = angular.module('rzSliderDemo', ['rzModule', 'ui.bootstrap']);
+
+app.controller('MainCtrl', function ($scope, $rootScope, $timeout, $modal,$http) {
+   console.log('app');
+   $scope.selectedOptions = {};
+			$scope.selected={};
+			console.log('app started');
+	$scope.apply = function(){
+        $scope.isApplied = 1;
+	  var url = "https://www.prodx.in/fashion_bot/bodyconcerns";
+		var bc_data = $scope.selectedOptions;
+		for(x in bc_data){
+				if(bc_data[x])
+				bc_data[x] = bc_data[x].replace(/_/g, ' ');
+		}
+	  	var temp_data = {"id": parseInt(window.ejs_data), "data" : bc_data };
+	  	console.log('data sent is ', temp_data);
+         $http({
+                    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                    method : "POST",
+                    url : url,
+                    data : temp_data
+                }).then(
+                    function(resp){
+                        console.log('resp> ', resp)
+                    },function(err){
+                        console.log(err);
+                    }
+                )
+        MessengerExtensions.requestCloseBrowser(function success() {
+	        console.log(success)
+        }, function error(err) {
+	        console.log(err)
+	    });
+	};
+    $scope.isApplied = 0;
+    $scope.send_id = function(option){
+    	console.log(option);
+				option = option.toLowerCase();
+				option = option.replace(/ /g,'_');
+		if(option == 'no_body_concerns'){
+		if(!$scope.selectedOptions[option])
+				{
+					$scope.selectedOptions = {};
+					$scope.selected={};
+					$scope.selectedOptions[option] = option;
+					$scope.selected[option]="active-botton";
+
+				}
+				else
+				{
+					$scope.selectedOptions[option] = undefined;
+					$scope.selected[option]="";
+				}
+
+
+		}else if(!$scope.selectedOptions[option])
+				{
+					$scope.selectedOptions['no_body_concerns'] = undefined;
+					$scope.selected['no_body_concerns'] = undefined;
+					$scope.selectedOptions[option] = option;
+					$scope.selected[option]="active-botton";
+				}
+				else
+				{
+					$scope.selectedOptions[option] = undefined;
+					$scope.selected[option]="";
+				}
+        
+    }
+  
+
+});
+</script>

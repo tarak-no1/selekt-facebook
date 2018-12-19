@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selekt.in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <style>
+input[type=checkbox], input[type=radio]{
+	width:50px;height:50px
+}
+[type="checkbox"]:checked+label:before{
+left: -20px !important;
+    width: 20px !important;
+    height: 40px !important;
+}
+[type="checkbox"]+label:before{
+    top: 15px !important;
+    left: -20px !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+[type="checkbox"].filled-in:checked+label:after{
+		    width: 50px  !important;
+    height: 50px  !important;
+    left: -15px !important;
+}
+
+[type="checkbox"]+label {
+	font-size:1em !important;
+	line-height:1 !important;
+}
+.displayON{
+	display:block !important;
+}
+<!--.font_mob button{-->
+    <!--font-size: 45px !important;-->
+    <!--height: 100px !important;-->
+<!--}-->
+.font_web button{
+font-size: 13px !important;
+}
+    </style>
+<script>
+		(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'Messenger'));
+    window.extAsyncInit = function() {
+        MessengerExtensions.getUserID(function success(uids) {
+            var psid = uids.psid;
+            var link = document.getElementById('samplelink');
+            link.href = '/sampledata?uid='+psid;
+        }, function error(err) {
+        });
+    };
+    function closeView(){
+        MessengerExtensions.requestCloseBrowser(function success() {
+            console.log(success)
+      }, function error(err) {
+        console.log(err)
+      });
+    }
+	</script>
+<body style="display:none" ng-class="(1) ? 'displayON' : 'no'" ng-app="rzSliderDemo" ng-controller="MainCtrl" >
+<div class="">
+	<div class="col-xs-12" style="text-align: center;padding:0" ng-style="isMobile?{'font-size': '1.3em'}:{'font-size': '1.3em'}">
+		<div class="row-xs-12" style="text-align:left;background: #26a69a; margin-bottom: 5%; color: white; font-weight: bold; padding: 3%;">{{data['question']}}</div>
+		<div class="row-xs-12 container">
+			<div ng-repeat="x in values" style="width: 90%; text-align: left; float: right;"  ng-class="(isMobile) ? 'font_mob' : 'font_web'" >
+  				<button ng-click="pushToArray(x.key)"  ng-style="isPushed(x.key)?{'background':'#26a69a'}:{'background':'white'}" style=" background:white;color:black; margin-top:10px; " class="btn" ng-style="isMobile?{'font-size': '1.2em'}:{'font-size': '1.2em'}">
+					{{x.value}}
+				</button>
+				<br>
+			</div>
+			<div  style="height:100px;margin-top:10%">
+				<button class="btn btn-info"  style="margin-top:30px;margin-bottom:30px;font-size: 1em; width: 100%; height: 35px; text-align: center;" ng-show="!applied" ng-click="apply();applied=1;" onclick="closeView()"> Apply </button>
+				<button class="btn btn-info"  style="margin-top:100px;font-size: 1em; width: 100%; height: 100%; text-align: center;" ng-show="applied"> Applied </button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+ejs_data ="<%=source%>";
+ejs_data = ejs_data.split('&#34;').join('"');
+ejs_data = ejs_data.split('&amp;').join('&');
+console.log('ejs_data',ejs_data);
+</script>
+</html><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+<script>
+
+ function isMobile() {
+          try{ document.createEvent("TouchEvent"); return true; }
+          catch(e){ return false; }
+    }
+   isMobile = (isMobile())
+
+var app = angular.module('rzSliderDemo', []);
+
+app.controller('MainCtrl', function ($scope, $rootScope, $timeout,$http) {
+    $scope.isMobile = window.isMobile;
+    $scope.data = JSON.parse(window.ejs_data);
+    $scope.values = $scope.data['options'];
+    $scope.choosen = [];
+    $scope.pushToArray = function(value){
+    		if($scope.choosen.indexOf(value) == -1)
+    		  $scope.choosen.push(value);
+    		else{
+                for(var x in $scope.choosen){
+                    if($scope.choosen[x] == value)
+                        $scope.choosen.splice(x,1);
+                }
+    		}
+    		console.log('choosen > ', $scope.choosen)
+    };
+    $scope.isPushed = function(value){
+
+    	for(var x in $scope.choosen){
+    	console.log('x is ',x)
+    	console.log('value is ',value)
+    			if($scope.choosen[x] == value)
+    			return 1;
+    	}
+    	return 0
+    }
+       $scope.apply = function(){
+        var url = "https://www.prodx.in/fashion_bot/refine_the_list_answers";
+        $http({
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            method : "POST",
+            url : url,
+            data : {"id" : $scope.data['id'],"type" : $scope.data['type'], 'selected_keys' : $scope.choosen }
+        }).then(
+            function(resp){
+            	console.log('resp : ', resp)
+            },function(err){
+                console.log(err);
+            }
+        )
+       }
+    
+
+
+});
+</script>

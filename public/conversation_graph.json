@@ -1,0 +1,451 @@
+{
+  "women_dresses": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "skin_exposure_neck",
+      "skin_exposure_legs",
+      "skin_exposure_arms"
+    ],
+    "customize_3": [
+      "fit_and_shape"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "pattern_2": [
+      "prints_and_pattern_prints"
+    ],
+    "pattern_3": [
+      "prints_and_pattern_prints"
+    ]
+  },
+  "women_kurta": {
+    "start": [
+      "occasion"
+      
+    ],
+    
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_neck",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "pattern_2": [
+      "prints_and_pattern_prints"
+    ],
+    "pattern_3": [
+      "prints_and_pattern_prints"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_tops": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_neck",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "pattern_2": [
+      "prints_and_pattern_prints"
+    ],
+    "pattern_3": [
+      "prints_and_pattern_prints"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_tshirts": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_neck",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern",
+      "prints_and_pattern_prints"
+    ],
+    "pattern_2": [
+      "prints_and_pattern_prints"
+    ],
+    "pattern_3": [
+      "prints_and_pattern_prints"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_shirts": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_length",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_skirts": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_legs"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_trousers": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_legs"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_shorts": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_rise"
+    ],
+    "customize_3": [
+      "skin_exposure_legs"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_sweatshirts": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_closure"
+    ],
+    "customize_3": [
+      "skin_exposure_neck",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_sweaters": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_closure"
+    ],
+    "customize_3": [
+      "skin_exposure_arms",
+      "skin_exposure_arms"
+    ],
+    "customize_4": [
+      "material"
+    ]
+  },
+  "women_capris": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_rise"
+    ],
+    "customize_3": [
+      "skin_exposure_legs"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_jumpsuits": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_4": [
+      "skin_exposure_neck",
+      "skin_exposure_arms"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_jeans": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_rise"
+    ],
+    "customize_3": [
+      "skin_exposure_legs"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_jackets": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_length"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_jeggings": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_closure"
+    ],
+    "customize_3": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_4": [
+      "material"
+    ]
+  },
+  "women_heels": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape",
+      "fit_and_shape_heel_height"
+    ],
+    "customize_3": [
+      "skin_exposure_foot"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_casual_shoes": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_foot"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_handbags": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "size_and_shape",
+      "size_and_shape_closure"
+    ],
+    "customize_3": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_4": [
+      "material"
+    ]
+  },
+  "women_flats": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "fit_and_shape"
+    ],
+    "customize_3": [
+      "skin_exposure_foot"
+    ],
+    "customize_4": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_5": [
+      "material"
+    ]
+  },
+  "women_blazers": {
+    "start": [
+      "occasion"
+      
+    ],
+    "customize_1": [
+      "color"
+    ],
+    "customize_2": [
+      "skin_exposure_arms",
+      "skin_exposure_length"
+    ],
+    "customize_3": [
+      "prints_and_pattern_pattern"
+    ],
+    "customize_4": [
+      "material"
+    ]
+  }
+}

@@ -1,0 +1,4907 @@
+{
+  "women_blazers": {
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "semi-formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_pattern"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "experimental"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "comfortable_look"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_color"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "birthday/anniversary/date",
+          "benefit": "less_blingy_look"
+        },
+        "3": {
+          "text": "clubbing/house party",
+          "benefit": "detailed_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": ""
+        },
+        "5": {
+          "text": "other events",
+          "skip": ""
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "skin_exposure_length": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "attirbute_value": "regular"
+        },
+        "2": {
+          "text": "cropped",
+          "attirbute_value": "crop"
+        },
+        "3": {
+          "text": "longline",
+          "attirbute_value": "hip-length"
+        },
+        "4": {
+          "text": "waist length",
+          "attirbute_value": "waist"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "3": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "4": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "upper_material",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "4": {
+          "text": "leather",
+          "adjective": "leather"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_capris": {
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "slim",
+          "adjective": "slim_fit"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose_fit"
+        }
+      }
+    },
+    "skin_exposure_legs": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular_length"
+        },
+        "2": {
+          "text": "cropped",
+          "adjective": "cropped"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_pattern"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "experimental"
+        }
+      }
+    },
+    "fit_and_shape_rise": {
+      "text": "How do you like your waistline?",
+      "multi_select": true,
+      "attribute": "waist_rise",
+      "options": {
+        "1": {
+          "text": "low rise",
+          "adjective": "low_rise"
+        },
+        "2": {
+          "text": "mid rise",
+          "adjective": "mid_rise"
+        },
+        "3": {
+          "text": "high rise",
+          "adjective": "high_rise"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "elegant_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "holiday trips",
+          "benefit": "experimental_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "sophisticated_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "sophisticated_look"
+        }
+      }
+    },
+    "sub_occasion_beach": {
+      "text": "When are you going?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "Day",
+          "benefit": "day_look"
+        },
+        "2": {
+          "text": "Night",
+          "benefit": "alluring_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_color"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "2": {
+          "text": "beach/pool party",
+          "benefit": "beach_looks"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "leather",
+          "adjective": "leather"
+        },
+        "5": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_casual_shoes": {
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "semi-formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Toe Shape preference?",
+      "multi_select": true,
+      "attribute": "toe_shape",
+      "options": {
+        "1": {
+          "text": "pointed toe",
+          "adjective": "pointed_toe"
+        },
+        "2": {
+          "text": "square toe",
+          "adjective": "square_toe"
+        },
+        "3": {
+          "text": "round toe",
+          "adjective": "round_Toe"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_surface"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "printed_surface"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "fancy_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "skin_exposure_foot": {
+      "text": "What ankle height you prefer?",
+      "multi_select": true,
+      "attribute": "ankle_height",
+      "options": {
+        "1": {
+          "text": "mid ankle",
+          "attirbute_value": "mid tops"
+        },
+        "2": {
+          "text": "high ankle",
+          "attirbute_value": "high tops"
+        },
+        "3": {
+          "text": "low ankle",
+          "attirbute_value": "regular"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "Cool_ color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "Warm_colors"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie/holidays",
+          "benefit": "classy_regular_look"
+        },
+        "2": {
+          "text": "beach wear",
+          "benefit": "all_season_use"
+        },
+        "3": {
+          "text": "daily wear/college",
+          "benefit": "functional_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "classy_regular_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "functional_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "birthday/anniversary/date",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "blingy_look"
+        },
+        "3": {
+          "text": "not for any specific event",
+          "skip": "classy_delicate_look"
+        },
+        "4": {
+          "text": "other events",
+          "skip": "classy_delicate_look"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What type of material do you prefer?",
+      "multi_select": true,
+      "attribute": "upper_material",
+      "options": {
+        "1": {
+          "text": "leather based",
+          "adjective": "leather_based"
+        },
+        "2": {
+          "text": "synthetic based",
+          "adjective": "synthetic_based"
+        }
+      }
+    }
+  },
+  "women_dresses": {
+    "sub_occasion_wedding": {
+      "text": "How do you like your dress to be?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "simple",
+          "benefit": "simple_look"
+        },
+        "2": {
+          "text": "heavy",
+          "benefit": "heavy_look"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal office wear",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi-formal office wear",
+          "benefit": "smart_look"
+        },
+        "3": {
+          "text": "casual office wear",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "surface_styling_or_features",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_designs"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "heavy_designs"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        },
+        "4": {
+          "text": "wedding",
+          "benefit": "wedding"
+        },
+        "5": {
+          "text": "beach",
+          "benefit": "breezy_look"
+        }
+      }
+    },
+    "sub_occasion_casual_outing": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie/holidays",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "not for any specific event",
+          "skip": "trendy_look"
+        },
+        "4": {
+          "text": "other events",
+          "skip": "dressy_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "skin_exposure_legs": {
+      "text": "Do you prefer showing your legs?",
+      "multi_select": true,
+      "attribute": "dress_length",
+      "options": {
+        "1": {
+          "text": "only below knee",
+          "adjective": "covered_till_knee"
+        },
+        "2": {
+          "text": "not at all",
+          "adjective": "fully_covered"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "short_length"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeves_type",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "bold_sleeves"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "regular_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "deep_neck"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "chic_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "detailed_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "less_blingy_look"
+        },
+        "4": {
+          "text": "birthday/anniversary",
+          "benefit": "less_blingy_look"
+        },
+        "5": {
+          "text": "not for any specific event",
+          "skip": "detailed_look"
+        },
+        "6": {
+          "text": "other events",
+          "skip": "chic_look"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "dress_shape",
+      "options": {
+        "1": {
+          "text": "body hugging",
+          "adjective": "body_hugging"
+        },
+        "2": {
+          "text": "top fit & bottom loose",
+          "adjective": "flowy"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose"
+        }
+      }
+    },
+    "prints_and_pattern_prints": {
+      "text": "Prints you like?",
+      "multi_select": true,
+      "attribute": "pattern_type",
+      "options": {
+        "1": {
+          "text": "basic prints",
+          "adjective": "basic_prints"
+        },
+        "2": {
+          "text": "tribal prints",
+          "adjective": "tribal_prints"
+        },
+        "3": {
+          "text": "quirky prints",
+          "adjective": "quirky_prints"
+        },
+        "4": {
+          "text": "text and bold prints",
+          "adjective": "text_and_bold_prints"
+        },
+        "5": {
+          "text": "ethnic",
+          "adjective": "ethnic_prints"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "leather",
+          "adjective": "leather"
+        }
+      }
+    }
+  },
+  "women_flats": {
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "plain_pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "heavy_patterns"
+        }
+      }
+    },
+    "sub_occasion_work": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Toe Shape preference?",
+      "multi_select": true,
+      "attribute": "toe_shape",
+      "options": {
+        "1": {
+          "text": "pointed toe",
+          "adjective": "pointed_toe"
+        },
+        "2": {
+          "text": "square toe",
+          "adjective": "square_toe"
+        },
+        "3": {
+          "text": "round toe",
+          "adjective": "round_toe"
+        },
+        "4": {
+          "text": "open toe",
+          "adjective": "open_toe"
+        },
+        "5": {
+          "text": "peep toe",
+          "adjective": "peep_toe"
+        }
+      }
+    },
+    "skin_exposure_foot": {
+      "text": "What ankle height you prefer?",
+      "multi_select": true,
+      "attribute": "ankle_height",
+      "options": {
+        "1": {
+          "text": "mid ankle",
+          "adjective": "mid_ankle"
+        },
+        "2": {
+          "text": "high ankle",
+          "adjective": "high_ankle"
+        },
+        "3": {
+          "text": "low ankle",
+          "adjective": "low_ankle"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark__color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "bright_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "skin_tones"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie/holidays",
+          "benefit": "classy_regular_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "functional_look"
+        },
+        "3": {
+          "text": "beach wear",
+          "benefit": "all_season_use"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "functional_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "classy_regular_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "blingy_sturdy_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "blingy_sturdy_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "blingy_sturdy_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "classy_delicate_look"
+        }
+      }
+    },
+    "sub_occasion_special_occasion": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "birthday/anniversary",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "date",
+          "benefit": "detailing_look"
+        },
+        "3": {
+          "text": "festivals/weddings",
+          "benefit": "detailing_blingy_look"
+        },
+        "4": {
+          "text": "other events",
+          "skip": "detailing_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual",
+          "benefit": "casual_wear"
+        },
+        "2": {
+          "text": "party",
+          "benefit": "party_wear"
+        },
+        "3": {
+          "text": "work",
+          "benefit": "office_wear"
+        },
+        "4": {
+          "text": "special occasion",
+          "benefit": "special_occasion_wear"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "material",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What type of material do you prefer?",
+      "multi_select": true,
+      "attribute": "upper_material",
+      "options": {
+        "1": {
+          "text": "faux based",
+          "adjective": "faux_based"
+        },
+        "2": {
+          "text": "synthetic based",
+          "adjective": "synthetic_based"
+        }
+      }
+    }
+  },
+  "women_handbags": {
+    "sub_occasion_work": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "grandeur_patterns"
+        }
+      }
+    },
+    "size_and_shape": {
+      "text": "What size do you prefer?",
+      "multi_select": true,
+      "attribute": "bag_type",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "everyday_bag"
+        },
+        "2": {
+          "text": "oversized",
+          "adjective": "big_bag"
+        },
+        "3": {
+          "text": "small",
+          "adjective": "small_bag"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "classy_regular_look"
+        },
+        "2": {
+          "text": "daily use/college",
+          "benefit": "cool_big_look"
+        },
+        "3": {
+          "text": "holidays",
+          "benefit": "experimental_look"
+        },
+        "4": {
+          "text": "beach use",
+          "benefit": "washable_big_use"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "classy_regular_look"
+        },
+        "6": {
+          "text": "Not for any specific event",
+          "skip": "detailing_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "classy_minimal_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "blingy_minimal_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "classy_minimal_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "detailing_look"
+        },
+        "5": {
+          "text": "birthday/anniversary",
+          "benefit": "detailing_look"
+        },
+        "6": {
+          "text": "date",
+          "benefit": "detailing_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual",
+          "benefit": "casual_wear"
+        },
+        "2": {
+          "text": "party/special occasion",
+          "benefit": "party_wear"
+        },
+        "3": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        }
+      }
+    },
+    "size_and_shape_closure": {
+      "text": "What type of closure do you pefer?",
+      "multi_select": true,
+      "attribute": "compartment_closure",
+      "options": {
+        "1": {
+          "text": "button",
+          "adjective": "button"
+        },
+        "2": {
+          "text": "no closure",
+          "adjective": "no_closure"
+        },
+        "3": {
+          "text": "zipper",
+          "adjective": "zipper"
+        },
+        "4": {
+          "text": "different closure",
+          "adjective": "different_closure"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "size and shape closure",
+          "dimension": ""
+        },
+        "3": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "4": {
+          "text": "material",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What type of material do you prefer?",
+      "multi_select": true,
+      "attribute": "material",
+      "options": {
+        "1": {
+          "text": "synthetic based",
+          "adjective": "synthetic_based"
+        },
+        "2": {
+          "text": "leather based",
+          "adjective": "leather_based"
+        }
+      }
+    }
+  },
+  "women_heels": {
+    "sub_occasion_work": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Toe Shape preference?",
+      "multi_select": true,
+      "attribute": "toe_shape",
+      "options": {
+        "1": {
+          "text": "pointed toe",
+          "adjective": "pointed_toe"
+        },
+        "2": {
+          "text": "square toe",
+          "adjective": "square_toe"
+        },
+        "3": {
+          "text": "round toe",
+          "adjective": "round_toe"
+        },
+        "4": {
+          "text": "open toe",
+          "adjective": "open_toe"
+        },
+        "5": {
+          "text": "peep toe",
+          "adjective": "peep_toe"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "surface_ornamentation",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_surface"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "printed_surface"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "fancy_look"
+        }
+      }
+    },
+    "fit_and_shape_heel_height": {
+      "text": "Preferred Heel Height?",
+      "multi_select": true,
+      "attribute": "heel_height",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "normal_heels"
+        },
+        "2": {
+          "text": "high",
+          "adjective": "tall_heels"
+        },
+        "3": {
+          "text": "low",
+          "adjective": "low"
+        }
+      }
+    },
+    "skin_exposure_foot": {
+      "text": "What ankle height you prefer?",
+      "multi_select": true,
+      "attribute": "ankle_height",
+      "options": {
+        "1": {
+          "text": "mid ankle",
+          "adjective": "mid_ankle"
+        },
+        "2": {
+          "text": "high ankle",
+          "adjective": "high_top"
+        },
+        "3": {
+          "text": "low ankle",
+          "adjective": "regular_top"
+        }
+      }
+    },
+    "sub_occasion_special_occasion": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "date",
+          "benefit": "detailing_look"
+        },
+        "2": {
+          "text": "festivals/weddings",
+          "benefit": "detailing_blingy_look"
+        },
+        "3": {
+          "text": "others",
+          "skip": "detailing_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie/holidays",
+          "benefit": "classy_regular_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "functional_look"
+        },
+        "3": {
+          "text": "beach wear",
+          "benefit": "all_season_use"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "functional_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "classy_regular_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "blingy_sturdy_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "blingy_sturdy_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "blingy_sturdy_look"
+        },
+        "5": {
+          "text": "birthday/anniversary",
+          "benefit": "classy_delicate_look"
+        },
+        "6": {
+          "text": "other events",
+          "skip": "classy_delicate_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual",
+          "benefit": "casual_wear"
+        },
+        "2": {
+          "text": "party",
+          "benefit": "party_wear"
+        },
+        "3": {
+          "text": "work",
+          "benefit": "office_wear"
+        },
+        "4": {
+          "text": "special occasion",
+          "benefit": "special_occasion_wear"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "material",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What type of material do you prefer?",
+      "multi_select": true,
+      "attribute": "upper_material",
+      "options": {
+        "1": {
+          "text": "synthetic based",
+          "adjective": "synthetic_based"
+        },
+        "2": {
+          "text": "leather based",
+          "adjective": "leather_based"
+        }
+      }
+    }
+  },
+  "women_jackets": {
+    "skin_exposure_length": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "jacket_length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "longline",
+          "adjective": "long"
+        },
+        "3": {
+          "text": "cropped",
+          "adjective": "short"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "semi-formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "heavy"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        },
+        "4": {
+          "text": "workout wear",
+          "benefit": "sporty_look"
+        },
+        "5": {
+          "text": "travel/holiday wear",
+          "benefit": "holiday_wear"
+        }
+      }
+    },
+    "sub_occasion_holiday": {
+      "text": "Does your holiday involve lot of outdoor activities?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "yes",
+          "benefit": "lightweight_feel"
+        },
+        "2": {
+          "text": "no",
+          "skip": ""
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "jacket_type",
+      "options": {
+        "1": {
+          "text": "fitted",
+          "adjective": "fitted"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular_fit"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "oversized"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "not for any specific event",
+          "skip": "trendy_look"
+        },
+        "4": {
+          "text": "other events",
+          "skip": "dressy_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "classy_delicate_look"
+        },
+        "2": {
+          "text": "birthday/anniversary/date",
+          "benefit": "less_blingy_look"
+        },
+        "3": {
+          "text": "clubbing/house party",
+          "benefit": "detailed_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "detailed_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "classy_delicate_look"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton blend",
+          "adjective": "cotton_blend"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "leather",
+          "adjective": "leather"
+        }
+      }
+    }
+  },
+  "women_jeans": {
+    "skin_exposure_legs": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "jeans_length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular_length"
+        },
+        "2": {
+          "text": "cropped",
+          "adjective": "cropped"
+        },
+        "3": {
+          "text": "short",
+          "adjective": "short"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "slim",
+          "adjective": "slim"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "semi-formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "feature",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "different"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "comfortable_look"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "fit_and_shape_rise": {
+      "text": "How do you like your waistline?",
+      "multi_select": true,
+      "attribute": "waist_rise",
+      "options": {
+        "1": {
+          "text": "low rise",
+          "adjective": "low_rise"
+        },
+        "2": {
+          "text": "mid rise",
+          "adjective": "mid_rise"
+        },
+        "3": {
+          "text": "high rise",
+          "adjective": "high_rise"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "birthday/anniversary/date",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "cocktail/office party",
+          "benefit": "chic_look"
+        },
+        "3": {
+          "text": "clubbing/house party",
+          "benefit": "detailed_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "detailed_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "chic_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "4": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_jeggings": {
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "voguish_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "voguish_look"
+        },
+        "3": {
+          "text": "holiday trips",
+          "benefit": "beauty_looks"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "elegant_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "elegant_look"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "relaxed_fit"
+        },
+        "2": {
+          "text": "Skinny",
+          "adjective": "skinny_fit"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "comfortable_stylish_feel"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "clubbing/house party",
+          "benefit": "clubbing_look"
+        },
+        "2": {
+          "text": "college party",
+          "benefit": "alluring_look"
+        },
+        "3": {
+          "text": "birthday/anniversary",
+          "benefit": "alluring_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "party_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "party_look"
+        }
+      }
+    },
+    "fit_and_shape_closure": {
+      "text": "What type of closure do you prefer?",
+      "multi_select": true,
+      "attribute": "closure",
+      "options": {
+        "1": {
+          "text": "button",
+          "adjective": "button"
+        },
+        "2": {
+          "text": "no closure",
+          "adjective": "no_closure"
+        },
+        "3": {
+          "text": "zipper",
+          "adjective": "zipper"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "4": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "4": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "5": {
+          "text": "leather",
+          "adjective": "leather"
+        }
+      }
+    }
+  },
+  "women_jumpsuits": {
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "trouser_fit",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "slim",
+          "adjective": "slim"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "different"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "long_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "short_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "elegant_look"
+        },
+        "2": {
+          "text": "beach wear",
+          "benefit": "beach_look"
+        },
+        "3": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "4": {
+          "text": "holiday trips",
+          "benefit": "alluring_look"
+        },
+        "5": {
+          "text": "date",
+          "benefit": "date_look"
+        },
+        "6": {
+          "text": "Not for any specific event",
+          "skip": "voguish_look"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "comfortable_stylish_feel"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "clubbing/house party",
+          "benefit": "clubbing_look"
+        },
+        "2": {
+          "text": "college party",
+          "benefit": "stylish_look"
+        },
+        "3": {
+          "text": "birthday/anniversary",
+          "benefit": "stylish_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "party_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "party_look"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "regular_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "open_neck"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        }
+      }
+    }
+  },
+  "women_kurta": {
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "special occasion wear",
+          "benefit": "special_occasion_wear"
+        },
+        "2": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "3": {
+          "text": "casual wear",
+          "benefit": "comfortable_look"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi formal",
+          "benefit": "smart_look"
+        },
+        "3": {
+          "text": "casual office wear",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "bright_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "technique",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "grandeur_patterns"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "kurta_shape",
+      "options": {
+        "1": {
+          "text": "loose",
+          "adjective": "loose_fit"
+        },
+        "2": {
+          "text": "fit and flare",
+          "adjective": "flared_fit"
+        },
+        "3": {
+          "text": "regular",
+          "adjective": "regular_fit"
+        }
+      }
+    },
+    "sub_occasion_special_occasion": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "date",
+          "benefit": "less_blingy_look"
+        },
+        "2": {
+          "text": "birthday/anniversary",
+          "benefit": "less_blingy_look"
+        },
+        "3": {
+          "text": "festival",
+          "benefit": "graceful_look"
+        },
+        "4": {
+          "text": "cocktail party/office party",
+          "benefit": "chic_look"
+        },
+        "5": {
+          "text": "wedding",
+          "benefit": "graceful_look"
+        },
+        "6": {
+          "text": "others",
+          "skip": "chic_look"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "holidays",
+          "benefit": "dressy_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "comfortable_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "dressy_look"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve_type",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "regular_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "deep_neck"
+        }
+      }
+    },
+    "prints_and_pattern_prints": {
+      "text": "Prints you like?",
+      "multi_select": true,
+      "attribute": "pattern_type",
+      "options": {
+        "1": {
+          "text": "basic prints",
+          "adjective": "basic_prints"
+        },
+        "2": {
+          "text": "tribal prints",
+          "adjective": "tribal_prints"
+        },
+        "3": {
+          "text": "quirky prints",
+          "adjective": "quirky_prints"
+        },
+        "4": {
+          "text": "text and bold prints",
+          "adjective": "text_bold_prints"
+        },
+        "5": {
+          "text": "ethnic",
+          "adjective": "ethnic_prints"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "4": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "5": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_shirts": {
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi-formal",
+          "benefit": "smart_look"
+        },
+        "3": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_designs"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "experimental_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "elegant_looks"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "holiday trips",
+          "benefit": "experimental_look"
+        },
+        "4": {
+          "text": "beach",
+          "benefit": "breezy_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "stylish_looks"
+        },
+        "6": {
+          "text": "Not for any specific event",
+          "skip": "stylish_looks"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "clour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "skin_exposure_length": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "shirt_length",
+      "options": {
+        "1": {
+          "text": "cropped",
+          "adjective": "cropped"
+        },
+        "2": {
+          "text": "longline",
+          "adjective": "longline"
+        },
+        "3": {
+          "text": "regular",
+          "adjective": "regular_length"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve_type",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "boxy",
+          "adjective": "boxy"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "3": {
+          "text": "slim",
+          "adjective": "slim_fit"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_shorts": {
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular_fit"
+        },
+        "2": {
+          "text": "slim",
+          "adjective": "slim"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose"
+        }
+      }
+    },
+    "skin_exposure_legs": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "cropped",
+          "adjective": "cropped"
+        },
+        "3": {
+          "text": "knee",
+          "adjective": "knee"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "pool party",
+          "benefit": "poolparty_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "clubbing_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "voguish_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "party_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "party_look"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "surface_styling_or_features",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_patterns"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "embroidered_work"
+        }
+      }
+    },
+    "fit_and_shape_rise": {
+      "text": "How do you like your waistline?",
+      "multi_select": true,
+      "attribute": "waist_rise",
+      "options": {
+        "1": {
+          "text": "low rise",
+          "adjective": "low_rise"
+        },
+        "2": {
+          "text": "mid rise",
+          "adjective": "mid_rise"
+        },
+        "3": {
+          "text": "high rise",
+          "adjective": "high_rise"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "2": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        },
+        "3": {
+          "text": "sports wear",
+          "benefit": "sporty_looks"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "beach",
+          "benefit": "beach_looks"
+        },
+        "2": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "elegant_look"
+        },
+        "3": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "4": {
+          "text": "holiday trips",
+          "benefit": "experimental_look"
+        },
+        "5": {
+          "text": "not for any specific event",
+          "skip": "sophisticated_look"
+        },
+        "6": {
+          "text": "Other Events",
+          "skip": "sophisticated_look"
+        }
+      }
+    },
+    "sub_occasion_sports": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "indoor",
+          "benefit": "alluring_look"
+        },
+        "2": {
+          "text": "outdoor",
+          "skip": ""
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "leather",
+          "adjective": "leather"
+        },
+        "6": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_skirts": {
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "cocktail/office party",
+          "benefit": "smart_look"
+        },
+        "2": {
+          "text": "clubbing/house party",
+          "benefit": "clubbing_look"
+        },
+        "3": {
+          "text": "college party",
+          "benefit": "voguish_look"
+        },
+        "4": {
+          "text": "birthday/anniversary",
+          "benefit": "classy_look"
+        },
+        "5": {
+          "text": "pool party",
+          "benefit": "poolparty_look"
+        },
+        "6": {
+          "text": "not for any specific event",
+          "skip": "sophisticated_look"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi formal",
+          "benefit": "smart_look"
+        },
+        "3": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "bright_look"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "grandeur_patterns"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "skin_exposure_legs": {
+      "text": "Do you prefer showing your legs?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "only below knee",
+          "adjective": "covered_till_knee"
+        },
+        "2": {
+          "text": "not at all",
+          "adjective": "fully_covered"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "short_length"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "breatheable_feel"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "cozy_feel"
+        },
+        "3": {
+          "text": "beach",
+          "benefit": "beach_looks"
+        },
+        "4": {
+          "text": "holiday trips",
+          "benefit": "alluring_look"
+        },
+        "5": {
+          "text": "date",
+          "benefit": "beauty_looks"
+        },
+        "6": {
+          "text": "Not for any specific event",
+          "skip": "elegant_look"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "skirt_shape",
+      "options": {
+        "1": {
+          "text": "body hugging",
+          "adjective": "body_hugging"
+        },
+        "2": {
+          "text": "flared",
+          "adjective": "flared"
+        },
+        "3": {
+          "text": "straight",
+          "adjective": "straight_fit"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "leather",
+          "adjective": "leather"
+        }
+      }
+    }
+  },
+  "women_": {
+    "": {
+      "text": "",
+      "multi_select": true,
+      "attribute": "",
+      "options": {}
+    }
+  },
+  "women_sweaters": {
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "type",
+      "options": {
+        "1": {
+          "text": "fitted",
+          "adjective": "fitted"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "3": {
+          "text": "oversized",
+          "adjective": "pullover"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve_length",
+      "options": {
+        "1": {
+          "text": "yes",
+          "attirbute_value": "long sleeve"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "attirbute_value": "three quarter sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "attirbute_value": "short sleeves"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "comfortable_stylish_feel"
+        },
+        "2": {
+          "text": "daily wear casual",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "college wear",
+          "benefit": "voguish_look"
+        },
+        "4": {
+          "text": "others",
+          "skip": "classy_look"
+        },
+        "5": {
+          "text": "holiday trips",
+          "benefit": "cozy_feel"
+        },
+        "6": {
+          "text": "special events",
+          "benefit": "dressy_look"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "simple_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "deep_neck"
+        }
+      }
+    },
+    "fit_and_shape_closure": {
+      "text": "What type of closure do you prefer?",
+      "multi_select": true,
+      "attribute": "closure",
+      "options": {
+        "1": {
+          "text": "button",
+          "adjective": "button"
+        },
+        "2": {
+          "text": "no closure",
+          "adjective": "no_closure"
+        },
+        "3": {
+          "text": "zipper",
+          "adjective": "zipper"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "material",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_sweatshirts": {
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_pattern"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "delete": "heavy_designs"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve_length",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "regular_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "open_neck"
+        }
+      }
+    },
+    "fit_and_shape_closure": {
+      "text": "What type of closure do you prefer?",
+      "multi_select": true,
+      "attribute": "closure",
+      "options": {
+        "1": {
+          "text": "button",
+          "adjective": "button"
+        },
+        "2": {
+          "text": "no closure",
+          "adjective": "no_closure"
+        },
+        "3": {
+          "text": "zipper",
+          "adjective": "zipper"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "boxy",
+          "adjective": "boxy"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "3": {
+          "text": "slim",
+          "adjective": "slim_fit"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "active/sports wear",
+          "benefit": "active_look"
+        },
+        "2": {
+          "text": "daily wear",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "college wear",
+          "benefit": "voguish_look"
+        },
+        "4": {
+          "text": "lunch/brunch/movie",
+          "benefit": "classy_look"
+        },
+        "5": {
+          "text": "others",
+          "skip": "elegant_look"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "3": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "4": {
+          "text": "wool",
+          "adjective": "wool"
+        }
+      }
+    }
+  },
+  "women_tops": {
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "special occasion wear",
+          "benefit": "special_occasion_wear"
+        },
+        "2": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "3": {
+          "text": "casual wear",
+          "benefit": "comfortable_look"
+        },
+        "4": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi formal",
+          "benefit": "smart_look"
+        },
+        "3": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "bright_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_patterns"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "grandeur_patterns"
+        }
+      }
+    },
+    "sub_occasion_special_occasion": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "date",
+          "benefit": "moderately_blingy_look"
+        },
+        "2": {
+          "text": "birthday/anniversary",
+          "benefit": "moderately_blingy_look"
+        },
+        "3": {
+          "text": "festival",
+          "benefit": "graceful_look"
+        },
+        "4": {
+          "text": "others",
+          "skip": "moderately_blingy_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "college party",
+          "benefit": "less_blingy_look"
+        },
+        "2": {
+          "text": "cocktail/office party",
+          "benefit": "chic_look"
+        },
+        "3": {
+          "text": "not for any specific event",
+          "skip": "detailed_look"
+        },
+        "4": {
+          "text": "clubbing",
+          "benefit": "detailed_look"
+        },
+        "5": {
+          "text": "house party",
+          "benefit": "detailed_look"
+        },
+        "6": {
+          "text": "other events",
+          "skip": "chic_look"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "fitted",
+          "adjective": "fitted"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular_fit"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose_fit"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "beach/pool party",
+          "benefit": "breezy_look"
+        },
+        "4": {
+          "text": "holidays",
+          "benefit": "experimental_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "dressy_look"
+        },
+        "6": {
+          "text": "Not for any specific event",
+          "skip": "trendy_look"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeves_styling",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "simple_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "deep_neck"
+        }
+      }
+    },
+    "prints_and_pattern_prints": {
+      "text": "Prints you like?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "basic prints",
+          "adjective": "simple_print"
+        },
+        "2": {
+          "text": "tribal prints",
+          "adjective": "tribal_prints"
+        },
+        "3": {
+          "text": "quirky prints",
+          "adjective": "quirky_prints"
+        },
+        "4": {
+          "text": "text and bold prints",
+          "adjective": "text_bold_prints"
+        },
+        "5": {
+          "text": "ethnic",
+          "adjective": "ethnic_prints"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton blend",
+          "adjective": "cotton_blend"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "leather",
+          "adjective": "leather"
+        }
+      }
+    }
+  },
+  "women_trousers": {
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "slim",
+          "adjective": "slim_fit"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose_fit"
+        }
+      }
+    },
+    "skin_exposure_legs": {
+      "text": "What length do you prefer?",
+      "multi_select": true,
+      "attribute": "length",
+      "options": {
+        "1": {
+          "text": "regular",
+          "adjective": "regular"
+        },
+        "2": {
+          "text": "cropped",
+          "adjective": "cropped"
+        },
+        "3": {
+          "text": "short",
+          "adjective": "short"
+        }
+      }
+    },
+    "sub_occasion_office": {
+      "text": "What dress code are you looking for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "formal",
+          "benefit": "professional_look"
+        },
+        "2": {
+          "text": "semi-formal",
+          "benefit": "professional_look"
+        },
+        "3": {
+          "text": "casual",
+          "benefit": "comfortable_stylish_feel"
+        }
+      }
+    },
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "dark_color"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "cool_color"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "warm_color"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_designs"
+        },
+        "3": {
+          "text": "i like experimenting",
+          "adjective": "experimental_look"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "office wear",
+          "benefit": "office_wear"
+        },
+        "2": {
+          "text": "casual wear",
+          "benefit": "casual_wear"
+        },
+        "3": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "office party",
+          "benefit": "chic_look"
+        },
+        "2": {
+          "text": "college party",
+          "benefit": "voguish_look"
+        },
+        "3": {
+          "text": "birthday/anniversary",
+          "benefit": "classy_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "party_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "party_look"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "beach",
+          "benefit": "beach_looks"
+        },
+        "2": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "elegant_look"
+        },
+        "3": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "4": {
+          "text": "holiday trips",
+          "benefit": "experimental_look"
+        },
+        "5": {
+          "text": "not for any specific event",
+          "skip": "sophisticated_look"
+        },
+        "6": {
+          "text": "Other Events",
+          "skip": "sophisticated_look"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  },
+  "women_tshirts": {
+    "color": {
+      "text": "Colors you want to have a look at?",
+      "multi_select": true,
+      "attribute": "colour",
+      "options": {
+        "1": {
+          "text": "darks",
+          "adjective": "powerful_look"
+        },
+        "2": {
+          "text": "pastels",
+          "adjective": "pastel_color"
+        },
+        "3": {
+          "text": "cool colors",
+          "adjective": "relaxing_look"
+        },
+        "4": {
+          "text": "warm/bright",
+          "adjective": "bright_look"
+        },
+        "5": {
+          "text": "achrome",
+          "adjective": "light_color"
+        },
+        "6": {
+          "text": "nude colors",
+          "adjective": "nude_shade"
+        }
+      }
+    },
+    "prints_and_pattern_pattern": {
+      "text": "Patterns you prefer?",
+      "multi_select": true,
+      "attribute": "pattern",
+      "options": {
+        "1": {
+          "text": "keep it as plain as possible",
+          "adjective": "plain_pattern"
+        },
+        "2": {
+          "text": "basic designs and prints are fine",
+          "adjective": "basic_patterns"
+        },
+        "3": {
+          "text": "make it more grandeur and heavy",
+          "adjective": "grandeur_patterns"
+        }
+      }
+    },
+    "sub_occasion_sports": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "indoor sports (gym/yoga/aerobics etc.)",
+          "benefit": "loose_fit_sporty"
+        },
+        "2": {
+          "text": "outdoor sports (trekking, cycling etc.)",
+          "benefit": "tight_fit_sporty"
+        }
+      }
+    },
+    "fit_and_shape": {
+      "text": "Your Fit preference?",
+      "multi_select": true,
+      "attribute": "fit",
+      "options": {
+        "1": {
+          "text": "fitted",
+          "adjective": "fitted"
+        },
+        "2": {
+          "text": "regular",
+          "adjective": "regular_fit"
+        },
+        "3": {
+          "text": "loose",
+          "adjective": "loose_fit"
+        },
+        "4": {
+          "text": "slim",
+          "adjective": "fitted"
+        }
+      }
+    },
+    "sub_occasion_casual": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "lunch/brunch/dinner/movie",
+          "benefit": "dressy_look"
+        },
+        "2": {
+          "text": "daily wear/college",
+          "benefit": "trendy_look"
+        },
+        "3": {
+          "text": "holidays",
+          "benefit": "experimental_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "comfortable_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "dressy_look"
+        }
+      }
+    },
+    "sub_occasion_party": {
+      "text": "Are you shopping for a specific event?",
+      "multi_select": false,
+      "attribute": "occasion",
+      "options": {
+        "1": {
+          "text": "clubbing/house party",
+          "benefit": "detailed_look"
+        },
+        "2": {
+          "text": "college party",
+          "benefit": "less_blingy_look"
+        },
+        "3": {
+          "text": "birthday party/anniversary party",
+          "benefit": "less_blingy_look"
+        },
+        "4": {
+          "text": "not for any specific event",
+          "skip": "detailed_look"
+        },
+        "5": {
+          "text": "other events",
+          "skip": "less_blingy_look"
+        }
+      }
+    },
+    "skin_exposure_arms": {
+      "text": "Do you want to cover your arms?",
+      "multi_select": true,
+      "attribute": "sleeve",
+      "options": {
+        "1": {
+          "text": "yes",
+          "adjective": "covered_sleeves"
+        },
+        "2": {
+          "text": "maybe, but not completely",
+          "adjective": "regular_sleeves"
+        },
+        "3": {
+          "text": "not at all",
+          "adjective": "open_sleeves"
+        }
+      }
+    },
+    "occasion": {
+      "text": "What are you shopping for?",
+      "multi_select": false,
+      "attribute": "broad_occasion",
+      "options": {
+        "1": {
+          "text": "casual wear",
+          "benefit": "comfortable_look"
+        },
+        "2": {
+          "text": "sports wear",
+          "benefit": "sporty_look"
+        },
+        "3": {
+          "text": "office wear",
+          "benefit": "professional_look"
+        },
+        "4": {
+          "text": "party wear",
+          "benefit": "party_wear"
+        }
+      }
+    },
+    "skin_exposure_neck": {
+      "text": "Are you comfortable with open necklines?",
+      "multi_select": true,
+      "attribute": "neck",
+      "options": {
+        "1": {
+          "text": "no",
+          "adjective": "closed_neck"
+        },
+        "2": {
+          "text": "maybe, but not too open",
+          "adjective": "regular_neck"
+        },
+        "3": {
+          "text": "yes",
+          "adjective": "deep_neck"
+        }
+      }
+    },
+    "prints_and_pattern_prints": {
+      "text": "Prints you like?",
+      "multi_select": true,
+      "attribute": "pattern_type",
+      "options": {
+        "1": {
+          "text": "basic prints",
+          "adjective": "simple_print"
+        },
+        "2": {
+          "text": "tribal prints",
+          "adjective": "tribal_prints"
+        },
+        "3": {
+          "text": "quirky prints",
+          "adjective": "quirky_prints"
+        },
+        "4": {
+          "text": "text and bold prints",
+          "adjective": "text_bold_prints"
+        }
+      }
+    },
+    "customize": {
+      "text": "Cool! Help me understand your preferences\n\nWhich among the following do you want to customize?",
+      "multi_select": true,
+      "attribute": "",
+      "options": {
+        "1": {
+          "text": "color",
+          "dimension": ""
+        },
+        "2": {
+          "text": "fit & shape",
+          "dimension": ""
+        },
+        "3": {
+          "text": "skin exposure",
+          "dimension": ""
+        },
+        "4": {
+          "text": "prints & patterns",
+          "dimension": ""
+        },
+        "5": {
+          "text": "fabric",
+          "dimension": ""
+        }
+      }
+    },
+    "material": {
+      "text": "What kind of fabric do you prefer?",
+      "multi_select": true,
+      "attribute": "fabric",
+      "options": {
+        "1": {
+          "text": "cotton based",
+          "adjective": "cotton_based"
+        },
+        "2": {
+          "text": "silk based",
+          "adjective": "silk_based"
+        },
+        "3": {
+          "text": "synthetic",
+          "adjective": "synthetic"
+        },
+        "4": {
+          "text": "blended",
+          "adjective": "blended"
+        },
+        "5": {
+          "text": "wool",
+          "adjective": "wool"
+        },
+        "6": {
+          "text": "others",
+          "adjective": "others"
+        }
+      }
+    }
+  }
+}
